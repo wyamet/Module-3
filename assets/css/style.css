@@ -73,13 +73,14 @@ label {
     color: black;
     padding: 1rem;
     border: 1px solid #333;
-    height: 2rem;
-    width: 350px;
+    height: 4rem;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     word-break: break-all;
     border-radius: .5rem;
+    text-size-adjust: 14;
   }
 
 input {

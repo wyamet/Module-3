@@ -20,6 +20,8 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47
 )
 
 
+
+
 // Creating event listeners for the form inputs//
 
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
