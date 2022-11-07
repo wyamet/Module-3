@@ -104,10 +104,6 @@ input {
      font-size: 23px;
     }
 
-    input.rangeBar {
-            color-scheme: #19191b, #E1D0EE;
-        }
-
 
     button {
         font-family: sans-serif;
@@ -136,3 +132,8 @@ input {
              box-shadow: 0 5px #666;
              transform: translateY(4px);
         }
+
+        @media (max-width: 600px) {
+ 
+          
+          
