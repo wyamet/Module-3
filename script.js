@@ -64,4 +64,23 @@ form.addEventListener('submit', e => {
     characterAmountNumber.value = value
     characterAmountRange.value = value
   }
+
+
+
+ function copyPassword(){
+    
+    navigator.clipboard.writeText(copyTarget);
+    
+   
+    alert("Password copied to clipboard");
+ }
+ 
+
+
   
+
+
+
+
+
+
