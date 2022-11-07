@@ -13,7 +13,7 @@ body {
 }
 
 .box{
-    background-color: bisque;
+    background-color: salmon;
     padding-top: 25px;
     padding: 2rem;
     border-radius: 1rem;
@@ -104,7 +104,9 @@ input {
      font-size: 23px;
     }
 
-
+    input.rangeBar {
+            color-scheme: #19191b, #E1D0EE;
+        }
 
 
     button {
@@ -115,7 +117,7 @@ input {
         width: 155px;
         height: 50px;
         text-align: center;
-        background-color: #E1D0EE;
+        background-color: #ffc0bc;
         display: flex;
         color: #19191b;
         justify-content: center;
