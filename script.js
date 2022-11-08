@@ -68,8 +68,8 @@ form.addEventListener('submit', e => {
 
 
  function copyPassword(){
-    
-    navigator.clipboard.writeText(copyTarget);
+    var copyText = document.getElementById("passwordDisplay")
+    navigator.clipboard.writeText("passwordDisplay", copyText);
     
    
     alert("Password copied to clipboard");
