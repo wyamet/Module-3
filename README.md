@@ -55,3 +55,4 @@ Inspiration, code snippets, etc.
 * https://www.youtube.com/watch?v=iKo9pDKKHnc&t=749s
 * https://www.geeksforgeeks.org/how-to-create-copy-to-clipboard-button/
 
+* https://css-tricks.com/scaled-proportional-blocks-with-css-and-javascript/

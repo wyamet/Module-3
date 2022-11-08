@@ -10,7 +10,26 @@ body {
     display: flex;
     min-height: 100vh;
     margin: 0;
+    
 }
+/* Trying to resize by shrinking to screen. */
+.scaleable-container {
+    flex-wrap: wrap;
+    padding: 20px;
+    resize: both;
+    position: relative;
+    background: none;
+    height: 400px;
+  }
+
+  .ui-resizable-se {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+  }
 
 .box{
     background-color: salmon;
@@ -22,6 +41,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transform: scale();
+    
     
 
 }
@@ -133,7 +154,7 @@ input {
              transform: translateY(4px);
         }
 
-        @media (max-width: 600px) {
+        
  
           
           
